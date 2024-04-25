@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '../utils';
+import { cn } from '../lib/utils';
 
 export type PProps = {
   children?: React.ReactNode;
@@ -10,7 +10,7 @@ function P({ children, className }: PProps) {
   return (
     <p
       className={cn(
-        'text-base tracking-tight text-left md:text-3xl',
+        'text-base tracking-tight text-left md:text-3xl mt-0 mb-0',
         className
       )}
     >

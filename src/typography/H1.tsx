@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '../utils';
+import { cn } from '../lib/utils';
 
 export type H1Props = {
   children?: React.ReactNode;
@@ -8,14 +8,14 @@ export type H1Props = {
 
 function H1({ children, className }: H1Props) {
   return (
-    <h1
+    <p
       className={cn(
-        'text-5xl tracking-tighter text-left md:text-8xl',
+        'text-5xl tracking-tighter text-left md:text-8xl mt-0 mb-0',
         className
       )}
     >
       {children}
-    </h1>
+    </p>
   );
 }
 

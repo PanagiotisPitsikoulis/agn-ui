@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '../utils';
+import { cn } from '../lib/utils';
 
 export type ButtonProps = {
   children?: React.ReactNode;
@@ -15,7 +15,7 @@ function Button({ children, className, icon }: ButtonProps) {
         className
       )}
     >
-      <p className="text-base line-clamp-1 md:text-xl">{children}</p>
+      <p className="text-base line-clamp-1 md:text-xl mt-0 mb-0">{children}</p>
       {icon}
     </button>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '../utils';
+import { cn } from '../lib/utils';
 import Button from '../button/Button';
 import H1 from '../typography/H1';
 import P from '../typography/P';

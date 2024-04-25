@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
 import Colors from '../lib/Colors';
-import { cn } from '../utils';
+import { cn } from '../lib/utils';
 import H1 from '../typography/H1';
 import P from '../typography/P';
 import Button from '../button/Button';

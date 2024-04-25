@@ -1,10 +1,9 @@
-'use client';
 import React from 'react';
 import ButtonSecondary from '../button/ButtonSecondary';
 import Colors from '../lib/Colors';
 import H1 from '../typography/H1';
 import P from '../typography/P';
-import { cn } from '../utils';
+import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
 import { InView } from 'react-intersection-observer';
 import { FeaturedProps } from './types';
@@ -14,7 +13,6 @@ function Featured({
   title,
   description,
   buttonText,
-  buttonLink,
   imageSrc,
   alternative,
 }: FeaturedProps) {
